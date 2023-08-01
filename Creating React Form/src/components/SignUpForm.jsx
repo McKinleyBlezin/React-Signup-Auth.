@@ -55,6 +55,7 @@ export default function SignUpForm({ token, setToken }) {
             onChange={(event) => setPassword(event.target.value)}
           />
         </label>
+        <br />
         <button>
           <input type="submit" />
         </button>
